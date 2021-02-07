@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian">
+  <UnstructuredGrid>
+
+    <Piece NumberOfPoints="4" NumberOfCells="0">
+      <PointData Vectors="E">
+        <DataArray type="Float32" Name="E" NumberOfComponents="3" format="ascii">
+-1 1 0
+-1 1 0
+-1 1 0
+-1 1 0
+        </DataArray>
+      </PointData>
+      <Points>
+        <DataArray type="Float32" NumberOfComponents="3" format="ascii">
+0 0 0
+1 0 0
+1 1 0
+0 1 0
+        </DataArray>
+      </Points>
+    </Piece>
+
+    <Piece NumberOfPoints="4" NumberOfCells="2">
+      <PointData Vectors="E">
+        <DataArray type="Float32" Name="E" NumberOfComponents="3" format="ascii">
+1 1 0
+1 1 0
+1 1 0
+1 1 0
+        </DataArray>
+      </PointData>
+      <Points>
+        <DataArray type="Float32" NumberOfComponents="3" format="ascii">
+0 0 0
+1 0 0
+1 1 0
+0 1 0
+        </DataArray>
+      </Points>
+    </Piece>
+
+  </UnstructuredGrid>
+</VTKFile>
